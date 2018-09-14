@@ -8,4 +8,10 @@ def prime?(num)
     return false 
   else
     while divisor < num 
+      if num % divisor == 0 
+        return false 
+      else 
+        divisor +=1 
+      end 
+    return true 
 end 
