@@ -13,5 +13,7 @@ def prime?(num)
       else 
         divisor +=1 
       end 
-    return true 
+    end 
+  end 
+  return true 
 end 
